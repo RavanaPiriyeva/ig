@@ -1,0 +1,110 @@
+@import "../../Style/variable.scss";
+@import "../../Style/mixin.scss";
+.banner {
+    background-color: $lightgray;
+    padding: 100px 0 0;
+    .left-part {
+        padding-right: 100px;
+        h2 {
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+        p {
+            color: $gray;
+            font-size: 18px;
+            line-height: 28px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        a.read {
+            @include mainbtn;
+            background-color: $black;
+            color: $white;
+        }
+    }
+    .right-part {
+        text-align: center;
+        position: relative;
+        &::after {
+            content: url(https://radiustheme.com/demo/html/cirkle/media/banner/shape_3.png);
+            position: absolute;
+            top: -100px;
+            right: 20px;
+            z-index: 1;
+        }
+        &::before {
+            content: url(https://radiustheme.com/demo/html/cirkle/media/banner/shape_4.png);
+            position: absolute;
+            top: 30%;
+            left: 20px;
+            z-index: 1;
+        }
+        .img {
+            z-index: 2;
+            position: relative;
+            &::before {
+                content: url(https://radiustheme.com/demo/html/cirkle/media/banner/shape_5.png);
+                position: absolute;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                animation-name: move1;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+            &::after {
+                content: url(https://radiustheme.com/demo/html/cirkle/media/banner/shape_6.png);
+                position: absolute;
+                z-index: 1;
+                top: 30%;
+                right: 0;
+                animation-name: move2;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+            }
+            img {
+                max-width: 100%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+@keyframes move2 {
+    0% {
+        top: 60%;
+        right: 0;
+    }
+    25% {
+        top: 60%;
+        right: 80px;
+    }
+    50% {
+        top: 65%;
+        right: 40px;
+    }
+    100% {
+        top: 60%;
+        right: 0;
+    }
+}
+
+@keyframes move1 {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: 0;
+        left: 80px;
+    }
+    50% {
+        top: 40px;
+        left: 40px;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}

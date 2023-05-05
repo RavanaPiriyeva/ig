@@ -1,0 +1,176 @@
+@import "../../Style/variable.scss";
+@import "../../Style/mixin.scss";
+
+.testimonial {
+    background-color: $black;
+    padding: 100px 0;
+    position: relative;
+    color: white;
+    &::before {
+        content: url(https://radiustheme.com/demo/html/cirkle/media/testimonial/shape_2.png);
+        position: absolute;
+        top: 0;
+        right: 100px;
+    }
+    .text {
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+        h3 {
+            font-size: 26px;
+            margin-bottom: 5px;
+        }
+        div {
+            font-size: 16px;
+            color: $gray;
+            margin-bottom: 25px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    .fotos {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .img {
+            border-radius: 50%;
+            overflow: hidden;
+            width: 65px;
+            height: 65px;
+            filter: grayscale(100%);
+            margin: 0 10px ;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+
+            }
+        }
+        .main.img{
+            width: 85px;
+            height: 85px;
+            filter: grayscale(0);
+            position: relative;
+           
+        }
+
+        &::after{
+            content: url(https://radiustheme.com/demo/html/cirkle/media/testimonial/shape_1.png);
+            position: absolute;
+            z-index: 20;
+            top: 53%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            
+          //  background-color: yellow;
+        }
+    }
+
+    ul{
+        position: absolute;
+        top: 0;
+        width: 70%;
+        height: 100%;
+        li:nth-child(1){
+            position: absolute;
+            top: 90px;
+            right: 90px;
+            animation:moveshape1 ;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        li:nth-child(2){
+            position: absolute;
+            right: 10px;
+            top: 80%;
+            padding:0 ;
+            animation:moveshape1 ;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        li:nth-child(3){
+            position: absolute;
+            right: 50%;
+            top: 30px;
+            animation:moveshape1 ;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        li:nth-child(4){
+            position: absolute;
+            left: 0;
+            top: 50%;
+            animation:moveshape1 ;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        li:nth-child(5){
+            position: absolute;
+            left: 50px;
+            bottom: 0;
+            animation:moveshape2 ;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        li:nth-child(6){
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            animation:moveshape2 ;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        li:nth-child(7){
+            position: absolute;
+            left: 50px;
+            top: 100px;
+            animation:moveshape1 ;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+    }
+}
+
+@keyframes moveshape1{
+    0%{
+        padding-right:0;
+    }
+    25%{
+        padding-right: 80px;
+    }
+    50%{ 
+        padding-top: 40px;
+        padding-right: 40px;
+    }
+    100%{
+        padding-right: 0;
+        padding-top: 0;
+    }
+}
+@keyframes moveshape2{
+    0%{
+        padding-left:0;
+    }
+    25%{
+        padding-left: 80px;
+    }
+    50%{ 
+        padding-bottom: 40px;
+        padding-left: 40px;
+    }
+    100%{
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+}
