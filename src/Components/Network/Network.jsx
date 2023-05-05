@@ -5,9 +5,9 @@ import "./Network.scss";
 const Network = () => {
   return (
     <section className="network">
-      <div className="container">
+      <div className="container-lg container-fluid">
         <div className="row">
-          <div className="col-5 text">
+          <div className="col-12 col-lg-5 text">
             <div class="subtitle">What We Do</div>
             <h2>
               Why Join Our <br></br>Cirkle from Social Network ?
@@ -35,8 +35,8 @@ const Network = () => {
               </span>
             </a>
           </div>
-          <div className="col-7 right-part">
-            <div className="item d-flex align-items-center justify-content-end">
+          <div className="col-12 col-lg-7 right-part">
+            <div className="item d-flex align-items-center justify-content-end-lg justify-content-center">
               <div className="icon col-6">
                 <i class="fa-solid fa-comments"></i>
               </div>
@@ -48,7 +48,7 @@ const Network = () => {
                 </p>
               </div>
             </div>
-            <div className="item d-flex align-items-center justify-content-end">
+            <div className="item d-flex align-items-center justify-content-end-lg justify-content-center activ">
               <div className="icon col-6">
               <i class="fa-solid fa-users"></i>
               </div>
@@ -60,7 +60,7 @@ const Network = () => {
                 </p>
               </div>
             </div>
-            <div className="item d-flex align-items-center justify-content-end">
+            <div className="item d-flex align-items-center justify-content-end-lg justify-content-center">
               <div className="icon col-6">
               <i class="fa-solid fa-scroll"></i>
               </div>

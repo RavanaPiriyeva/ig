@@ -3,6 +3,12 @@
 .community {
   padding-top: 100px;
   position: relative;
+  .img-map{
+    width: 100%;
+    img{
+      max-width: 100%;
+    }
+  }
   &:after {
     content: "";
   }
@@ -10,9 +16,12 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    
   }
   .text {
     padding-right: 15%;
+    position: relative;
+    z-index: 5;
     h2 {
       margin-bottom: 20px;
       font-size: 36px;

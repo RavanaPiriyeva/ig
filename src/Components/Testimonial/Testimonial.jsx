@@ -5,7 +5,7 @@ import '../../Style/grid.scss'
 const Testimonial = () => {
     return (
         <section className='testimonial'>
-            <div className="container">
+            <div className="container-lg container-fluid">
                 <div className='text'>
                     <h3>Zinia Jessy</h3>
                     <div>CEO, Khadai R Ghumai</div>

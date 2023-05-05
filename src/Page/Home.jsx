@@ -21,7 +21,6 @@ const Home = () => {
             <Community/>
             <Member/>
            <WhyChoose/>
-           <LocationFind/>
            <Banner/>
            <Group/>
            <Testimonial/>

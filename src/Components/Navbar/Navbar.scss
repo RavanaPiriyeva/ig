@@ -6,6 +6,38 @@ nav {
   position: fixed;
   width: 100%;
   z-index: 10;
+  .bars{
+    cursor: pointer;
+    ul{
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: $blue;
+      width: 0;
+      height: 100vh;
+      text-align: center;
+      padding-top: 50px;
+      transition: all .5s;
+      overflow: hidden;
+      li{
+        padding: 20px 0;
+        font-size: 20px;
+        font-weight: 700;
+        a{
+          color:$white;
+        }
+      }
+    }
+  }
+  .bars:hover{ 
+  ul{
+    width: 300px;
+    
+  }
+ 
+   
+    
+  }
   .list {
     li {
       padding-right: 30px;
@@ -48,5 +80,8 @@ nav {
       border-radius: 4px;
       margin-left: 20px;
     }
+  }
+  @media screen and (max-width:768px){
+    padding: 20px 20px;
   }
 }

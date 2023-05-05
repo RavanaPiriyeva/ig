@@ -15,39 +15,66 @@
       margin-bottom: 30px;
     }
     p {
-      color:$gray;
+      color: $gray;
       margin-bottom: 30px;
       width: 90%;
     }
-    a.read{
-        @include mainbtn;
-        background-color: $lightgray;
-        border: 1px solid $gray;
+    a.read {
+      @include mainbtn;
+      background-color: $lightgray;
+      border: 1px solid $gray;
     }
   }
-  .right-part{
+  .right-part {
     padding-left: 30px;
-    .item{
-        .icon{
-            width: 120px;
-            height: 120px;
-            background-color: $white;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            i{
-                font-size: 40px;
-                color: $gray;
-            }
-        }
+    .activ {
+      padding-left: 100px;
     }
-    .text{
-        padding-left: 20px;
-        h3{
-            font-size: 25px;
-            padding-bottom: 15px;
+    @media screen and (max-width: 992px) {
+      padding-left: 0;
+      padding-top: 50px;
+      .activ {
+        padding-left: 0;
+      }
+    }
+
+    .item {
+      cursor: pointer;
+      &:hover {
+        .icon {
+          background-color: $blue;
+
+          i {
+            color: $white;
+          }
         }
+        h3 {
+          color: $blue;
+        }
+      }
+      .icon {
+        width: 120px;
+        height: 120px;
+        background-color: $white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s;
+        i {
+          font-size: 40px;
+          color: $gray;
+          transition: all 0.5s;
+        }
+      }
+    }
+    .text {
+      padding-left: 20px;
+      h3 {
+        font-size: 25px;
+        padding-bottom: 15px;
+        transition: all 0.5s;
+      }
     }
   }
 }

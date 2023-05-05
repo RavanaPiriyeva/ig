@@ -7,7 +7,7 @@ const WhyChoose = () => {
         <section className='whyChoose'>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-6  left-part">
+                    <div className="col-12 col-lg-6 left-part">
                         <div className=''>
                             <h2>Cirkle Makes Your Life Easier & Simple</h2>
                             <p>Aliquam lorem ante dapibus in viverra quis feugiat atellu Peaselus vierra nullaut metus varius laoreet unknown printer took scrambled make.</p>
@@ -20,7 +20,7 @@ const WhyChoose = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="col-6 right-part">
+                    <div className="col-12 col-lg-6 right-part">
                         <img src="https://radiustheme.com/demo/html/cirkle/media/figure/why_choose_1.jpg" alt="whychoose" />
                     </div>
                 </div>

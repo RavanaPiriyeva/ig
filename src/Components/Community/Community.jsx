@@ -6,13 +6,13 @@ function Community() {
     <section className="community">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-6 img">
+          <div className="col-6 d-lg-block d-none img">
             <img
               src="https://radiustheme.com/demo/html/cirkle/media/figure/map_1.png"
               alt="community"
             />
           </div>
-          <div className="col-6 text">
+          <div className="col-lg-6 col-12 text">
             <h2>
               129 Countries We Build <br></br> Our Largest Community in <br />
               <span>Cirkle Network</span>

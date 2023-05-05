@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <div className="container">
         <div className="row justify-content-between">
-          <div className="col-3 logo-part">
+          <div className="col-lg-3 col-12 logo-part">
             <div className="logo">
               <img
                 src="https://radiustheme.com/demo/html/cirkle/media/logo_dark.png"
@@ -18,7 +18,7 @@ const Footer = () => {
               por incidiut labore et loreLorem ipsum kelly amieo dolorey.
             </p>
           </div>
-          <div className="col-2 list">
+          <div className="col-lg-2 col-md-6 col-12 col-md-6 list">
             <h3>Important Links</h3>
             <ul>
               <li>
@@ -35,7 +35,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-2 list">
+          <div className="col-lg-2 col-md-6 col-12 list">
             <h3>Community</h3>
             <ul>
               <li>
@@ -55,7 +55,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="col-2 list">
+          <div className="col-lg-2 col-md-6 col-12 list">
             <h3>Followers</h3>
             <ul>
               <li>

@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="hero">
       <div className="container">
         <div className="row align-items-center">
-          <div className="text col-6">
+          <div className="text col-12 col-lg-6">
             <h1>Cirkle Community</h1>
             <p>
               Having real social contacts can sometimes be difficult FUN,
@@ -34,8 +34,8 @@ const Hero = () => {
               </span>
             </a>
           </div>
-          <div className="col-6 img">
-            <img
+          <div className="col-12 col-lg-6 img d-none">
+            <img className="d-none d-md-block"
               src="https://radiustheme.com/demo/html/cirkle/media/banner/people_1.png"
               alt="hero"
             />

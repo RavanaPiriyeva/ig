@@ -9,7 +9,7 @@ const Group = () => {
                     <p>when an unknown printer took a galley of type and meeting fari scrambled it to <br></br> make a type specimen book.</p>
                 </div>
                 <div className="row">
-                    <div className="col-3 item">
+                    <div className="col-lg-3 col-md-6 col-12 item">
                         <div className='item-body'>
                             <div className="img">
                                 <img src="https://radiustheme.com/demo/html/cirkle/media/groups/groups_1.jpg" alt="group" />
@@ -21,7 +21,7 @@ const Group = () => {
 
                         </div>
                     </div>
-                    <div className="col-3 item">
+                    <div className="col-lg-3 col-md-6 col-12 item">
                         <div className='item-body'>
                             <div className="img">
                                 <img src="https://radiustheme.com/demo/html/cirkle/media/groups/groups_2.jpg" alt="group" />
@@ -34,7 +34,7 @@ const Group = () => {
                         </div>
                     </div>
 
-                    <div className="col-3 item">
+                    <div className="col-lg-3 col-md-6 col-12 item">
                         <div className='item-body'>
                             <div className="img">
                                 <img src="https://radiustheme.com/demo/html/cirkle/media/groups/groups_3.jpg" alt="group" />
@@ -47,7 +47,7 @@ const Group = () => {
                         </div>
                     </div>
 
-                    <div className="col-3 item">
+                    <div className="col-lg-3 col-md-6 col-12 item">
                         <div className='item-body'>
                             <div className="img">
                                 <img src="https://radiustheme.com/demo/html/cirkle/media/groups/groups_4.jpg" alt="group" />
@@ -60,7 +60,7 @@ const Group = () => {
                         </div>
                     </div>
 
-                    <div className="col-3 item">
+                    <div className="col-lg-3 col-md-6 col-12 item">
                         <div className='item-body'>
                             <div className="img">
                                 <img src="https://radiustheme.com/demo/html/cirkle/media/groups/groups_5.jpg" alt="group" />
@@ -73,7 +73,7 @@ const Group = () => {
                         </div>
                     </div>
 
-                    <div className="col-3 item">
+                    <div className="col-lg-3 col-md-6 col-12 item">
                         <div className='item-body'>
                             <div className="img">
                                 <img src="https://radiustheme.com/demo/html/cirkle/media/groups/groups_6.jpg" alt="group" />
@@ -86,7 +86,7 @@ const Group = () => {
                         </div>
                     </div>
 
-                    <div className="col-3 item">
+                    <div className="col-lg-3 col-md-6 col-12 item">
                         <div className='item-body'>
                             <div className="img">
                                 <img src="https://radiustheme.com/demo/html/cirkle/media/groups/groups_7.jpg" alt="group" />
@@ -99,7 +99,7 @@ const Group = () => {
                         </div>
                     </div>
 
-                    <div className="col-3 item">
+                    <div className="col-lg-3 col-md-6 col-12 item">
                         <div className='item-body'>
                             <div className="img">
                                 <img src="https://radiustheme.com/demo/html/cirkle/media/groups/groups_8.jpg" alt="group" />

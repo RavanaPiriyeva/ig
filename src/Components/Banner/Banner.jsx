@@ -7,7 +7,7 @@ const Banner = () => {
         <section className="banner">
             <div className="container">
                 <div className="row">
-                    <div className="col-6 left-part">
+                    <div className="col-12 col-lg-6 left-part">
                         <h2>Fully Responsive Cirkle WordPress Theme</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                         <a href="#" className="read">
@@ -18,7 +18,7 @@ const Banner = () => {
                                 </span>
                             </a>
                     </div>
-                    <div className="col-6 right-part">
+                    <div className="col-12 col-lg-6 d-none d-lg-block right-part">
                        <div className="img"> <img src="https://radiustheme.com/demo/html/cirkle/media/banner/apps.png" alt="banner"/></div>
                     </div>
                 </div>

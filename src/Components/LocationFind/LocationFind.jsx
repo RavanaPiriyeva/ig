@@ -11,7 +11,7 @@ const LocationFind = () => {
                     <p>when an unknown printer took a galley of type and meeting fari scrambled it to <br></br> make a type specimen book.</p>
                 </div>
                 <div className="fotos row">
-                    <div className="col-6 left-part">
+                    <div className="col-12 col-lg-6 left-part">
                         <div className="item">
                             <a href="#">
                                 <div className="item-body">
