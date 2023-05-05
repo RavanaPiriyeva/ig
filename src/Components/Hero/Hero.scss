@@ -1,0 +1,38 @@
+@import "../../Style/variable.scss";
+@import "../../Style/mixin.scss";
+.hero {
+  background-color: $black;
+  padding: 100px 0;
+  .text {
+    h1 {
+      color: $white;
+      margin-bottom: 14px;
+      font-size: 46px;
+      line-height: 52px;
+    }
+    p {
+      color: $white;
+      width: 60%;
+      margin-bottom: 40px;
+    }
+    h2 {
+      font-size: 40px;
+      font-weight: 700;
+      color: $white;
+      margin-bottom: 6px;
+    }
+  }
+  .img {
+    display: flex;
+    justify-content: end;
+    img {
+      max-width: 100%;
+    }
+  }
+  a.read{
+    @include mainbtn;
+    background-color:$black;
+    border: 1px solid $white;
+    color: $white;
+  }
+}

@@ -1,0 +1,30 @@
+@import "../../Style/variable.scss";
+@import "../../Style/mixin.scss";
+.community {
+  padding-top: 100px;
+  position: relative;
+  &:after {
+    content: "";
+  }
+  .bottom-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  .text {
+    padding-right: 15%;
+    h2 {
+      margin-bottom: 20px;
+      font-size: 36px;
+      line-height: 42px;
+      span {
+        color: $blue;
+      }
+    }
+    p {
+      color: $gray;
+      line-height: 28px;
+      
+    }
+  }
+}

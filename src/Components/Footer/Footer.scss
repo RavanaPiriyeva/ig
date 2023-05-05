@@ -1,0 +1,49 @@
+@import "../../Style/variable.scss";
+@import "../../Style/mixin.scss";
+footer {
+  padding: 100px 0;
+  .logo-part {
+    padding: 0 10px;
+    p {
+      padding-top: 20px;
+      color: $gray;
+    }
+  }
+  .list {
+    h3 {
+      font-size: 23px;
+      padding-bottom: 18px;
+      margin-bottom: 22px;
+      position: relative;
+      &::after {
+        content: "";
+        height: 3px;
+        width: 20px;
+        background-color: $blue;
+        position: absolute;
+        bottom: 0;
+        left: 8px;
+      }
+      &::before {
+        content: "";
+        height: 3px;
+        width: 6px;
+        background-color: $blue;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+    }
+    li{
+        padding: 5px 0;
+        a{
+            color: $gray;
+        }
+        &:hover{
+            a{
+                color: $blue;
+            }
+        }
+    }
+  }
+}

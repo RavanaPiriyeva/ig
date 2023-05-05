@@ -1,0 +1,52 @@
+@import "../../Style/variable.scss";
+@import "../../Style/mixin.scss";
+nav {
+  padding: 20px 100px;
+  background-color: $black;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  .list {
+    li {
+      padding-right: 30px;
+      a {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1;
+        display: block;
+        color: $white;
+      }
+      &:hover {
+        a {
+          color: $blue;
+        }
+      }
+    }
+  }
+  .icons {
+    a {
+      color: white;
+    }
+    li:hover {
+      a {
+        color: $blue;
+      }
+    }
+  }
+  .login-part {
+    margin-left: 20px;
+    border-left: 1px solid $gray;
+    justify-content: end;
+    i {
+      color: white;
+    }
+    .login {
+      color:$black;
+      background-color: $white;
+      padding: 8px 25px;
+      font-weight: 700;
+      border-radius: 4px;
+      margin-left: 20px;
+    }
+  }
+}
